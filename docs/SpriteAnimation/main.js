@@ -109,7 +109,7 @@ function update() {
 		pause = false;
 
 		spriteNumber = 3;
-		state = "peep3WalkOut"; // HCNAGE LATER
+		state = "start"; // HCNAGE LATER
 
 		peeps[0] = {pos: vec(G.WIDTH/2 - 8, G.HEIGHT/2 + 50)};
 		peeps[1] = {pos: vec(G.WIDTH/2, G.HEIGHT/2 + 50)};
